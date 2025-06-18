@@ -1,6 +1,8 @@
 # JARVIS-3D-PRINTER
 
-An AI-powered 3D printer assistant that scans, generates, and refines printable objects through speech and camera-based input. Designed to integrate with the Elegoo Neptune 4 and Raspberry Pi 5 (with IMX219 stereo camera and Hailo8).
+An AI-powered 3D printer assistant that scans, generates, and refines printable
+objects through speech and camera-based input. Designed to integrate with the
+Elegoo Neptune 4 and Raspberry Pi 5 (with IMX219 stereo camera and Hailo8).
 
 ## Features (Planned)
 - Dual camera scanning for real-world modeling
@@ -17,6 +19,16 @@ An AI-powered 3D printer assistant that scans, generates, and refines printable 
 - IMX219-83 dual camera
 - ADXL345, DS18B20, MPU6050
 - ESP32-CAM (remote monitoring)
+
+## Running the Interface
+Install dependencies and start the web server:
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+Then open `http://localhost:8000` in your browser to access the interface.
 
 ## License
 MIT
